@@ -30,6 +30,7 @@ mpl.rcParams["axes.prop_cycle"] = mpl.cycler(
     ]
 )
 
+
 def bar(gwaff, save: bool = False):
     with open("config.yml", "r") as file:
         config = safe_load(file)
@@ -156,7 +157,7 @@ def versus(gwaff, save: bool = False):
 
     if config["versus"] == None:
         exit(1)
-    
+
     for user in gwaff:
         if int(user) in config["versus"]:
             y = [0]
