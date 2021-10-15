@@ -4,7 +4,7 @@ title: "SmileMore XP Graph!"
 bottom_message: "\nMade by Bwac edited by Sean!"
 plot:
   range: 60 # how many users to include in the plots
-  minium_xp: 500 # anyone with a xp gain below this will not be included in the plots
+  minium_xp: 10 # anyone with a xp gain below this will not be included in the plots
   rank_range: 20 # the interval it starts a new graph
 bar:
   range: 15 # how many users to include in the bar graph
